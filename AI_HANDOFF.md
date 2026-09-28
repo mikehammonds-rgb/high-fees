@@ -99,8 +99,7 @@ The 10 product questions (D9), the 6 notes-vs-ChatGPT differences (D11), and the
 - GitHub Pages must be enabled (Settings → Pages → Source: GitHub Actions) before the deploy
   workflow can succeed.
 - **Domain renewal: both domains renew 2027-06-10** (confirmed by Mike). Auto-renew isn't in the obvious places in
-  the Whois.com panel. Mike has a calendar reminder to renew (set for 2027-06-09; an earlier one was
-  suggested). Privacy Protection was off on the .com. Mike is reviewing the ~$2 pro-rata option; check
+  the Whois.com panel. Mike has a yearly calendar reminder to renew on June 1. Privacy Protection was off on the .com. Mike is reviewing the ~$2 pro-rata option; check
   it's on for both domains.
 - `project/content/about.md` has one `[VERIFY]` sentence (FTC fee rule). Check it before the page goes live.
 - The legal facts in the source doc (FTC fee rule, Florida restaurant operations-charge law, Florida
