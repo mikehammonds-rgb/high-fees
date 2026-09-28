@@ -82,7 +82,6 @@ Claude's view is in brackets.
 
 ## Other questions
 
-
 - **This repo is public.** Anything committed, including the founder story, plans, and notes, is
   visible to anyone and stays in git history. OK to keep it public? (Free GitHub Pages needs a public
   repo. Keeping the repo private needs a paid GitHub plan or a different host.)
