@@ -121,3 +121,11 @@ copies would drift.
    inbox once the site is live.
 
 **Why:** Mike's calls. These supersede the matching lines in Mike's original notes.
+
+### D12 — 2026-09-28 — Founder identity: first name + Tampa only
+
+The About page says "I'm Mike: a Tampa diner, IT guy, and frequent traveler". There's no surname,
+photo, or employer. Approved text is in `project/content/about.md`. Mike's opinions (e.g. "pay your
+staff a fair wage") are clearly framed as his view there. Fee listings themselves stay neutral.
+**Why:** credibility without exposing Mike personally to businesses that get listed. **Revisit if**
+Mike wants to go more public. Adding detail later is easy; removing it isn't.

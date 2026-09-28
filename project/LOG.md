@@ -19,8 +19,9 @@ ChatGPT plan differs from them.
 **Decided:** D6 — `www.highfeesnotforme.com` primary via Pages custom domain; `.info` forwards to it.
 D7 — ChatGPT planning is reference, not decisions. D8 — no paid, automated AI for now. D9 — Mike's answers to the 10 product questions.
 D10 — `HANDOFF.md` renamed `AI_HANDOFF.md`; every AI reads it first and updates it last.
-D11 — the 6 notes-vs-ChatGPT differences settled.
-**Left open:** Founder interview; cold start (where launch content comes from without the agent); static-vs-backend architecture (D3/D4
+D11 — the 6 notes-vs-ChatGPT differences settled. D12 — founder interview done; About text approved
+(first name + Tampa only).
+**Left open:** cold start (where launch content comes from without the agent); static-vs-backend architecture (D3/D4
 don't fit the DGF/review center); repo is public; hosting plan; domain renewal; legal facts unverified.
 **PR:** see branch
 

@@ -66,6 +66,7 @@ project/BRIEF.md     ← the idea, audience, goals
 project/DECISIONS.md ← decision log (append-only)
 project/LOG.md       ← session log (newest first)
 project/sources/     ← source material copied in (e.g. ChatGPT planning); reference, not decisions
+project/content/     ← approved page text waiting to be built into site/ (not live)
 site/                ← the website; this folder is what gets published
 .github/workflows/   ← GitHub Pages deploy (publishes site/ on push to main)
 ```

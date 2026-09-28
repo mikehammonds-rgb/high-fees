@@ -58,6 +58,7 @@ until Mike approves it. Details: `project/BRIEF.md`.
   - Ad spots are designed now but stay empty for now.
   - An AI may fix only its own unpublished findings.
   - Council checklist for content; Claude and Codex do the building; customer service is Mike's inbox.
+- D12 About page: first name + Tampa only; text approved in `project/content/about.md`.
 
 ## In progress
 
@@ -65,25 +66,24 @@ until Mike approves it. Details: `project/BRIEF.md`.
 
 ## Next steps (in order)
 
-1. **Founder interview** with Mike; draft the About page text from it (Mike approves before it's committed,
-   since the repo is public).
-2. **Architecture decision.** D3/D4 (static GitHub Pages, no build step) can't support the DGF,
+1. **Architecture decision.** D3/D4 (static GitHub Pages, no build step) can't support the DGF,
    evidence uploads, the private review center, required accounts (D9), or the newsletter. Those need a backend,
    a database, private file storage, and login. Decide whether:
    - (a) the static site is only for the Phase 2 prototype (public pages with synthetic sample data),
      and the backend is chosen later, or
    - (b) the backend is chosen now.
    Record the choice as a new decision that supersedes D3/D4 where needed.
-3. From those answers: v1 requirements, data model, page map, moderation and evidence policy,
+2. From those answers: v1 requirements, data model, page map, moderation and evidence policy,
    phased implementation plan. All go to Mike for approval.
-4. Prototype public pages in `site/` with **synthetic** data only.
-5. After the prototype: connect `www.highfeesnotforme.com` per D6.
+3. Prototype public pages in `site/` with **synthetic** data only.
+4. After the prototype: connect `www.highfeesnotforme.com` per D6.
 
 ## Questions for Mike
 
-The 10 product questions (D9) and the 6 notes-vs-ChatGPT differences (D11) are answered. Still open:
+The 10 product questions (D9), the 6 notes-vs-ChatGPT differences (D11), and the founder interview
+(D12) are done. Still open:
 
-- The founder interview (section "Founder-story page" in the ChatGPT source doc).
+- The architecture decision (next steps, item 1).
 
 ## Other questions
 
@@ -100,6 +100,7 @@ The 10 product questions (D9) and the 6 notes-vs-ChatGPT differences (D11) are a
   workflow can succeed.
 - Domain renewal: both domains were bought 2026-06-10. Check the renewal date and auto-renew in
   Whois.com so they don't lapse.
+- `project/content/about.md` has one `[VERIFY]` sentence (FTC fee rule). Check it before the page goes live.
 - The legal facts in the source doc (FTC fee rule, Florida restaurant operations-charge law, Florida
   card-surcharge statute) have **not been re-verified** in this repo. Don't publish them until they're
   checked against official sources.

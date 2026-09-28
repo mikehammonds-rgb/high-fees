@@ -52,7 +52,10 @@ including fees that are technically disclosed but buried and only show up on the
 
 ## What success looks like
 
-- TBD — Mike to define (see founder-interview question 6 in the source doc).
+- Mike's goal: **the listed price includes everything.** No add-ons after the fact.
+- The site gets there by documenting add-on fees well enough that customers can choose places
+  that don't charge them, and businesses and lawmakers can't ignore the pattern.
+- TBD: measurable targets (listings, reports, visitors) once the site exists.
 
 ## How it works (D11)
 
@@ -78,7 +81,7 @@ including fees that are technically disclosed but buried and only show up on the
 - `/fee/<id>` — a single fee observation.
 - `/report` — the DGF.
 - `/rules` — legal-information library (dated, sourced, "not legal advice").
-- `/about` — founder story (not drafted until Mike answers the interview questions).
+- `/about` — founder story (approved text in `content/about.md`, D12).
 
 Behind the scenes (not public): a private review center for Mike to review, redact, approve,
 publish, and handle disputes.
