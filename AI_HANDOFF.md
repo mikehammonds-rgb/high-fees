@@ -14,6 +14,14 @@ It is the one shared handoff doc. It's a snapshot of *now*, not a history (histo
 
 **Last updated:** 2026-09-28 · **By:** Claude (Code) · **Branch:** claude/epic-gates-w8c84y (PR #1 merged; this end-of-day update is PR #2)
 
+## Reminders for Mike (AIs: mention any open ones at the start of each session)
+
+- [ ] **Privacy Protection** on both domains in the Whois.com Control Panel (manage.whois.com, then the
+      domain, then Privacy Protection). It's about $2 pro-rata to 2027-06-10. At checkout, make sure it's
+      privacy protection and not a pricier "Domain Protect+" bundle.
+- [ ] **Merge the open PR** from the last session before starting with another AI.
+- [x] Domain renewal reminder: yearly Google Calendar reminder on June 1 (domains expire June 10).
+
 ## What this is (one paragraph)
 
 A moderated, evidence-based registry of add-on fees consumers run into (resort fees, forced
