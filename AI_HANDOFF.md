@@ -29,6 +29,7 @@ until Mike approves it. Details: `project/BRIEF.md`.
   and the earlier ChatGPT planning doc (`project/sources/2026-09-28-chatgpt-planning-handoff.md`).
   That ChatGPT doc was the first handoff. **This file replaces it**; don't update the old one.
 - Mike owns `highfeesnotforme.com` and `highfeesnotforme.info` (Whois.com, bought 2026-06-10, renew 2027-06-10).
+  Domain only, with no hosting plan, which is what D6 needs (GitHub Pages hosts for free).
   Not connected yet.
 
 ## Decisions so far (full text in `project/DECISIONS.md`)
@@ -92,7 +93,6 @@ The 10 product questions (D9), the 6 notes-vs-ChatGPT differences (D11), and the
 - **This repo is public.** Anything committed, including the founder story, plans, and notes, is
   visible to anyone and stays in git history. OK to keep it public? (Free GitHub Pages needs a public
   repo. Keeping the repo private needs a paid GitHub plan or a different host.)
-- Did the Whois.com purchase include a hosting plan? If so, it may not be needed (see D6).
 
 ## Known issues
 
