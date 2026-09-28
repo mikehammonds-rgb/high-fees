@@ -29,3 +29,18 @@ A GitHub Actions workflow deploys `site/` on every push to `main`.
 Google Drive folder "High Fees website" is for large files and source material. Anything an agent
 needs to act on gets copied into the repo.
 **Why:** not every AI tool can read Drive; all of them can read the repo.
+
+### D6 — 2026-09-28 — Custom domain after the prototype: `www.highfeesnotforme.com`
+
+Mike owns `highfeesnotforme.com` and `highfeesnotforme.info` (registrar: Whois.com, bought 2026-06-10).
+Until the prototype is ready, the site stays on the default GitHub Pages URL. Then:
+
+- **Primary:** `www.highfeesnotforme.com`, set as the Pages custom domain; the bare `highfeesnotforme.com`
+  redirects to it. DNS is changed at Whois.com.
+- **`.info`:** forwards to the `.com` at the registrar. It is not a second copy of the site
+  (Pages serves one custom domain per repo).
+- Don't connect the domain before Mike says the prototype is ready: once DNS points at Pages,
+  every push to `main` is live on the real domain.
+
+**Why:** keeps free, automatic Pages deploys (D3) while using Mike's domain. **Revisit if** D3 is
+revisited (the brief needs a server) — then the domain points at the new host instead.
