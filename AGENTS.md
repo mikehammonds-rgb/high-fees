@@ -25,6 +25,20 @@ to do. If `HANDOFF.md` and the code disagree, trust the code and flag the mismat
 - **No secrets in the repo.** No API keys, tokens, or personal data. Ever.
 - **Ask, don't guess, on product questions.** Put open questions in `HANDOFF.md` under
   "Questions for Mike" instead of inventing an answer.
+- **Don't reopen agreed terms quietly.** Taxonomy, workflow, and policy terms in `BRIEF.md` and
+  `DECISIONS.md` change only through a PR that says why.
+
+## 2a. Content and data rules (this site publishes claims about real businesses)
+
+- **Synthetic data only** in `site/`, fixtures, and examples until Mike approves the evidence-handling
+  process. Never commit real receipts, invoices, or anyone's personal data.
+- **No real company entries or allegations** without evidence and Mike's approval.
+- **Neutral wording.** Say what the evidence shows ("the receipt listed a 20% operations charge").
+  Never call a fee or company illegal, fraudulent, or a scam.
+- **Legal claims cite a current official source** and a last-checked date. Nothing legal is published
+  without re-verification.
+- **No outward actions without an explicit assignment:** don't deploy, configure domains, create
+  accounts or services, publish content, or send email.
 
 ## 3. End of every session (required — this is the handoff)
 
@@ -46,6 +60,7 @@ HANDOFF.md           ← current state + next steps (snapshot)
 project/BRIEF.md     ← the idea, audience, goals
 project/DECISIONS.md ← decision log (append-only)
 project/LOG.md       ← session log (newest first)
+project/sources/     ← source material copied in (e.g. ChatGPT planning); reference, not decisions
 site/                ← the website; this folder is what gets published
 .github/workflows/   ← GitHub Pages deploy (publishes site/ on push to main)
 ```

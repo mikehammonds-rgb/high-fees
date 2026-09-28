@@ -12,9 +12,13 @@ _Newest first. One entry per session. Copy the template._
 
 ## 2026-09-28 — Claude (Code) — claude/epic-gates-w8c84y
 
-**Did:** Recorded Mike's domains (`highfeesnotforme.com`, `.info`) and the plan to move to them after the prototype.
+**Did:** Recorded Mike's domains and the plan to move to them after the prototype. Imported Mike's
+ChatGPT planning handoff into `project/sources/`, filled `BRIEF.md` from it, added content/data rules
+to `AGENTS.md` §2a, rewrote `HANDOFF.md`.
 **Decided:** D6 — `www.highfeesnotforme.com` primary via Pages custom domain; `.info` forwards to it.
-**Left open:** Whether the Whois.com purchase included hosting; domain renewal date.
+D7 — ChatGPT planning is reference, not decisions.
+**Left open:** The 10 product questions + founder interview; static-vs-backend architecture (D3/D4
+don't fit the DGF/review center); repo is public; hosting plan; domain renewal; legal facts unverified.
 **PR:** see branch
 
 ## 2026-09-28 — Claude (Cowork) — main

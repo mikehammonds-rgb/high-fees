@@ -44,3 +44,10 @@ Until the prototype is ready, the site stays on the default GitHub Pages URL. Th
 
 **Why:** keeps free, automatic Pages deploys (D3) while using Mike's domain. **Revisit if** D3 is
 revisited (the brief needs a server) — then the domain points at the new host instead.
+
+### D7 — 2026-09-28 — ChatGPT planning is reference material, not decisions
+
+Mike's ChatGPT planning is kept verbatim in `project/sources/2026-09-28-chatgpt-planning-handoff.md`
+and summarized in `BRIEF.md`. Its "recommended" items stay proposals until Mike approves them and
+they are recorded here. Its coordination rules are folded into `AGENTS.md` §2a.
+**Why:** one set of rules and one state file for every AI; avoid treating suggestions as settled.

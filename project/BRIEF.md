@@ -1,35 +1,92 @@
-# Project brief — High Fees website
+# Project brief — High Fees Not For Me
 
 _Owner: Mike. Agents may propose edits via PR but shouldn't change the goals on their own._
 
+_Source: ChatGPT planning sessions, captured in full in
+[`sources/2026-09-28-chatgpt-planning-handoff.md`](sources/2026-09-28-chatgpt-planning-handoff.md).
+That file is the detailed reference; this brief is the summary. Items marked **(proposed)** are
+recommendations from planning that Mike has not yet approved._
+
 ## One-line pitch
 
-TBD
+See the real fees consumers encountered, supported by evidence and reviewed before publication.
 
 ## Problem
 
-What "high fees" means here, and who is hurt by them. TBD
+Businesses add high, unexpected, mandatory, hidden, or poorly disclosed fees to bills, invoices,
+receipts, reservations, and purchases — resort/destination fees, automatic gratuities, service and
+"operations" charges, facility fees, card surcharges, delivery/processing/convenience/admin fees.
+Consumers find out late or not at all, and once one business adopts a fee, competitors follow.
 
 ## Audience
 
-Who visits, and what they already know. TBD
+Consumers, starting in **Florida**, who want to know what a business really charges before they
+book or buy, and who want somewhere credible to report a fee they ran into. TBD: more detail.
 
 ## What a visitor can do
 
-- TBD
+- See the newest verified fee findings.
+- Browse and search by business category, fee type, company, and location.
+- Report a fee through the **Data Gathering Form (DGF)** with a receipt/bill as evidence.
+- Read plain-language summaries of federal and Florida fee rules ("Know the rules").
+- Read the founder story.
+- Later: register, subscribe to a monthly newsletter.
+
+## Core principles
+
+1. Nothing submitted or discovered is published automatically. Mike approves every publication.
+2. Every public entry has one business category and at least one fee type.
+3. Claims are factual, neutral, and traceable to evidence. "High" or "objectionable" is not
+   "illegal"; the site never calls a fee illegal or a scam without an authoritative ruling.
+4. Receipts are sensitive private evidence: private by default, redacted before any display.
+5. Keep company, location, date, amount, and evidence context for every observation.
+6. Businesses get a correction/response process.
 
 ## What success looks like
 
-- TBD
+- TBD — Mike to define (see founder-interview question 6 in the source doc).
 
 ## Out of scope (for now)
 
-- TBD
+- Native mobile apps (responsive web / PWA first) **(proposed)**.
+- States other than Florida.
+- Advertising and sponsorship until the site has content, traffic, and trust policies **(proposed)**.
 
-## Pages / site map
+## Pages / site map (proposed)
 
-- `/` — Home — TBD
+- `/` — Home: mission + search, latest verified findings, browse by category, common fee types,
+  report a fee, "Know the rules" cards, newsletter invite.
+- `/browse` — search and filter findings.
+- `/company/<name>` — one page per company, with location-specific observations underneath.
+- `/fee/<id>` — a single fee observation.
+- `/report` — the DGF.
+- `/rules` — legal-information library (dated, sourced, "not legal advice").
+- `/about` — founder story (not drafted until Mike answers the interview questions).
+
+Behind the scenes (not public): a private review center for Mike to review, redact, approve,
+publish, and handle disputes.
+
+## Taxonomy (proposed, needs Mike's approval)
+
+**Business categories:** Hotels & Travel · Restaurants & Food Delivery · Entertainment & Ticketing ·
+Retail & Consumer Services · Utilities, Telecom & Subscriptions · Other
+
+**Fee types:** resort/destination · automatic gratuity · service/operations charge · facility ·
+card/payment surcharge · delivery · convenience/processing · administrative · regulatory-recovery ·
+cancellation/termination · other added charge
+
+## Phases (proposed)
+
+0. Product and policy definition (definitions, taxonomy, evidence and privacy rules, legal review,
+   founder interview).
+1. Florida research and private review — small, high-quality private dataset.
+2. Public responsive website.
+3. Accounts and newsletter.
+4. More states, native apps, advertising, more moderators.
 
 ## Content sources
 
-Where facts and figures come from, and how often they need refreshing. TBD
+Official company booking/checkout pages, menus, published terms and fee schedules, government rules
+and enforcement actions, consumer-submitted receipts. News reporting is a lead, not proof. Legal
+summaries must be re-verified against current official sources before publication, and reviewed by
+an attorney before public launch.
