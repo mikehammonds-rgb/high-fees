@@ -13,6 +13,8 @@ _Snapshot, not history. Rewrite it at the end of every session. History goes in 
   The concept: a moderated, evidence-based registry of high or hidden consumer fees, starting in
   Florida. Most of that doc is **recommendations Mike hasn't approved yet**. Don't treat them as decisions.
 - That doc was written before this repo existed. Where it says "no GitHub repository", it is out of date.
+- **No paid, automated AI for now (D8).** No research agent, council, or AI receipt reading gets built.
+  Research is done in Claude/Codex sessions and the council is a checklist.
 - Mike owns `highfeesnotforme.com` and `highfeesnotforme.info` (Whois.com, bought 2026-06-10).
   Not connected yet; the plan is in D6.
 
@@ -77,8 +79,8 @@ Claude's view is in brackets.
 - **Agents list.** Notes list 8 roles. ChatGPT: the 5-member council reviews content; architect,
   developer, tester, PM, and designer are building roles. [Agree. In practice, Claude and Codex fill
   the building roles.]
-- **Research agent built "using Codex".** Recorded as a preference, not yet a decision. It needs a place
-  to run and pays per use for AI and search (see Known issues).
+- **Research agent built "using Codex".** On hold per D8 (no paid, automated AI for now). Research
+  happens in Claude/Codex sessions instead.
 
 ## Other questions
 
@@ -93,8 +95,6 @@ Claude's view is in brackets.
   workflow can succeed.
 - Domain renewal: both domains were bought 2026-06-10. Check the renewal date and auto-renew in
   Whois.com so they don't lapse.
-- **Running cost.** The research agent and council use paid AI/search services every time they
-  run. No budget is set yet. Needed before building them.
 - The legal facts in the source doc (FTC fee rule, Florida restaurant operations-charge law, Florida
   card-surcharge statute) have **not been re-verified** in this repo. Don't publish them until they're
   checked against official sources.

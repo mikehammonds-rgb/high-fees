@@ -17,8 +17,8 @@ ChatGPT planning handoff into `project/sources/`, filled `BRIEF.md` from it, add
 to `AGENTS.md` §2a, rewrote `HANDOFF.md`. Added Mike's original idea notes to `project/sources/` and listed where the
 ChatGPT plan differs from them.
 **Decided:** D6 — `www.highfeesnotforme.com` primary via Pages custom domain; `.info` forwards to it.
-D7 — ChatGPT planning is reference, not decisions.
-**Left open:** The 10 product questions + founder interview; static-vs-backend architecture (D3/D4
+D7 — ChatGPT planning is reference, not decisions. D8 — no paid, automated AI for now.
+**Left open:** The 10 product questions + founder interview; cold start (where launch content comes from without the agent); static-vs-backend architecture (D3/D4
 don't fit the DGF/review center); repo is public; hosting plan; domain renewal; legal facts unverified.
 **PR:** see branch
 

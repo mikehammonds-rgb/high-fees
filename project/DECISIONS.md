@@ -52,3 +52,18 @@ and summarized in `BRIEF.md`. Mike's own notes (`project/sources/mike-original-i
 it where they differ. Its "recommended" items stay proposals until Mike approves them and
 they are recorded here. Its coordination rules are folded into `AGENTS.md` §2a.
 **Why:** one set of rules and one state file for every AI; avoid treating suggestions as settled.
+
+### D8 — 2026-09-28 — No paid, automated AI for now
+
+Mike: "scratch the paid AI part". Nothing is built that calls pay-per-use AI or search services:
+no scheduled research agent, no automated 5-member council, no AI receipt reading.
+Instead, for now:
+
+- **Research** happens in normal working sessions with Claude or Codex, using Mike's existing
+  subscriptions. Findings go to the private review folder as candidates; Mike approves as before.
+- **The council** becomes a written review checklist (researcher, evidence critic, legal monitor,
+  editor/taxonomist, quality/privacy), applied in those sessions and by Mike.
+- **Receipts** are checked by Mike by eye (or later by free, non-AI tools).
+
+**Why:** no running costs until the idea is proven. **Revisit if** manual research can't keep up
+or submission volume grows. Any paid service needs Mike's OK and a budget first.

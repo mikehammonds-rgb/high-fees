@@ -50,6 +50,8 @@ book or buy, and who want somewhere credible to report a fee they ran into. TBD:
 
 ## Out of scope (for now)
 
+- Paid, automated AI: research agent, 5-member council, AI receipt reading (D8). Research and
+  review are done in Claude/Codex sessions for now.
 - Native mobile apps (responsive web / PWA first) **(proposed)**.
 - States other than Florida.
 - Advertising and sponsorship until the site has content, traffic, and trust policies **(proposed)**.
