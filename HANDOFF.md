@@ -48,10 +48,40 @@ From the ChatGPT planning (still unanswered):
 6. Are the six proposed business categories approved?
 7. Must someone create an account before submitting a DGF?
 8. What minimum evidence qualifies a research-agent discovery for human review?
-9. What did "Harness" mean in the original notes?
+9. ~~What did "Harness" mean?~~ **Answered by Mike's notes:** "Harness" is the heading over
+   "loop to review and fix", "tools it can connect to", and "memory". So it means the setup the
+   research agent runs inside (its loop, tools, and memory), not a specific product. Mike to confirm.
 10. Who besides Mike may eventually approve publication?
 
-New:
+## Where the ChatGPT plan differs from Mike's notes (Mike decides)
+
+Mike's notes are in `project/sources/mike-original-idea-notes.md`. ChatGPT changed these items;
+Claude's view is in brackets.
+
+- **Receipt must match the description.** Notes: "must match". ChatGPT: flag mismatches for human
+  review instead of auto-rejecting, because some facts (e.g. when the fee was disclosed) aren't on a
+  receipt. [Agree with ChatGPT.]
+- **One instance per company.** Notes: one entry per company, "fees may vary". ChatGPT: one company
+  page with each location's fee listed underneath. [Agree; it keeps your idea and doesn't imply every
+  location charges the same.]
+- **Agent loop "fix anything itself".** ChatGPT: the agent can improve its own findings in the
+  private queue, but changes to its own instructions or code need testing and your approval.
+  [Agree. A self-changing agent making claims about real businesses is a legal risk.]
+- **Categories.** Notes name 4 (Hotels, Restaurants, Stores, Utilities) + "Other". ChatGPT added
+  Entertainment & Ticketing as the 5th. [Reasonable: the FTC fee rule covers tickets and lodging.
+  But it's your call.]
+- **Browser and mobile versions.** Notes: both. ChatGPT: one mobile-friendly website first, native
+  app later. [Agree; one codebase until the reporting flow is proven.]
+- **Ads.** Notes: create ad/sponsor space. ChatGPT: design the space now, sell it later.
+  [Agree; ads next to unproven claims about companies hurt credibility.]
+- **Agents list.** Notes list 8 roles. ChatGPT: the 5-member council reviews content; architect,
+  developer, tester, PM, and designer are building roles. [Agree. In practice, Claude and Codex fill
+  the building roles.]
+- **Research agent built "using Codex".** Recorded as a preference, not yet a decision. It needs a place
+  to run and pays per use for AI and search (see Known issues).
+
+## Other questions
+
 
 - **This repo is public.** Anything committed, including the founder story, plans, and notes, is
   visible to anyone and stays in git history. OK to keep it public? (Free GitHub Pages needs a public
@@ -64,6 +94,8 @@ New:
   workflow can succeed.
 - Domain renewal: both domains were bought 2026-06-10. Check the renewal date and auto-renew in
   Whois.com so they don't lapse.
+- **Running cost.** The research agent and council use paid AI/search services every time they
+  run. No budget is set yet. Needed before building them.
 - The legal facts in the source doc (FTC fee rule, Florida restaurant operations-charge law, Florida
   card-surcharge statute) have **not been re-verified** in this repo. Don't publish them until they're
   checked against official sources.

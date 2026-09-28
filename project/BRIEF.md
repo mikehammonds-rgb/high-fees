@@ -2,10 +2,12 @@
 
 _Owner: Mike. Agents may propose edits via PR but shouldn't change the goals on their own._
 
-_Source: ChatGPT planning sessions, captured in full in
-[`sources/2026-09-28-chatgpt-planning-handoff.md`](sources/2026-09-28-chatgpt-planning-handoff.md).
-That file is the detailed reference; this brief is the summary. Items marked **(proposed)** are
-recommendations from planning that Mike has not yet approved._
+_Sources: Mike's [original idea notes](sources/mike-original-idea-notes.md) (the owner's own words;
+they win any conflict) and the ChatGPT planning sessions
+([`sources/2026-09-28-chatgpt-planning-handoff.md`](sources/2026-09-28-chatgpt-planning-handoff.md),
+the detailed reference). This brief is the summary. Items marked **(proposed)** are recommendations
+Mike has not yet approved. Where the two sources differ, see "Where the ChatGPT plan differs from
+Mike's notes" in `HANDOFF.md`._
 
 ## One-line pitch
 
@@ -67,6 +69,9 @@ Behind the scenes (not public): a private review center for Mike to review, reda
 publish, and handle disputes.
 
 ## Taxonomy (proposed, needs Mike's approval)
+
+Mike's notes: the 5 most common categories plus "Other"; named Hotels, Restaurants, Stores, Utilities
+(the fifth isn't named).
 
 **Business categories:** Hotels & Travel · Restaurants & Food Delivery · Entertainment & Ticketing ·
 Retail & Consumer Services · Utilities, Telecom & Subscriptions · Other
