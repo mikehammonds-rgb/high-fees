@@ -25,11 +25,17 @@ Consumers find out late or not at all, and once one business adopts a fee, compe
 Consumers, starting in **Florida**, who want to know what a business really charges before they
 book or buy, and who want somewhere credible to report a fee they ran into. TBD: more detail.
 
+## What counts as a listed fee (D9)
+
+Add-on fees on the bill beyond the listed price (hotels, restaurants, or any other business),
+including fees that are technically disclosed but buried and only show up on the receipt.
+
 ## What a visitor can do
 
 - See the newest verified fee findings.
 - Browse and search by business category, fee type, company, and location.
-- Report a fee through the **Data Gathering Form (DGF)** with a receipt/bill as evidence.
+- Report a fee through the **Data Gathering Form (DGF)** with a receipt/bill as evidence
+  (account required; the submitter chooses to be anonymous or shown).
 - Read plain-language summaries of federal and Florida fee rules ("Know the rules").
 - Read the founder story.
 - Later: register, subscribe to a monthly newsletter.
@@ -70,15 +76,12 @@ book or buy, and who want somewhere credible to report a fee they ran into. TBD:
 Behind the scenes (not public): a private review center for Mike to review, redact, approve,
 publish, and handle disputes.
 
-## Taxonomy (proposed, needs Mike's approval)
+## Taxonomy
 
-Mike's notes: the 5 most common categories plus "Other"; named Hotels, Restaurants, Stores, Utilities
-(the fifth isn't named).
+**Business categories (approved, D9):** Hotels · Restaurants · Food Delivery & Apps · Stores ·
+Utilities · Travel & Transportation · Home & Personal Services · Other
 
-**Business categories:** Hotels & Travel · Restaurants & Food Delivery · Entertainment & Ticketing ·
-Retail & Consumer Services · Utilities, Telecom & Subscriptions · Other
-
-**Fee types:** resort/destination · automatic gratuity · service/operations charge · facility ·
+**Fee types (proposed):** resort/destination · automatic gratuity · service/operations charge · facility ·
 card/payment surcharge · delivery · convenience/processing · administrative · regulatory-recovery ·
 cancellation/termination · other added charge
 

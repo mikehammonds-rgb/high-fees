@@ -67,3 +67,26 @@ Instead, for now:
 
 **Why:** no running costs until the idea is proven. **Revisit if** manual research can't keep up
 or submission volume grows. Any paid service needs Mike's OK and a budget first.
+
+### D9 — 2026-09-28 — Product answers from Mike (Q1–Q10)
+
+1. **Scope:** add-on fees on the bill beyond the listed price (hotels, restaurants, or any other
+   business), including fees that are technically disclosed but buried and only show up on the receipt.
+2. **Disclosed but high:** included when it fits (1): the fee is added on top of the listed price.
+3. **Submitters:** each submitter chooses whether to be anonymous or shown (e.g. first name/initials).
+   The default is anonymous.
+4. **Company responses:** only if they dispute. There's no outreach before publication. Every entry
+   needs a visible "dispute / request a correction" link, and disputes get prompt review.
+5. **Public proof:** a cropped image of just the fee line(s), everything else removed, plus
+   "Evidence reviewed on [date]". Originals stay private.
+6. **Categories (7 + Other):** Hotels · Restaurants · Food Delivery & Apps · Stores · Utilities ·
+   Travel & Transportation · Home & Personal Services · Other. No Entertainment & Ticketing.
+   Supersedes Mike's earlier "5 + Other".
+7. **Accounts:** an account is required before submitting a DGF.
+8. **Research findings:** the minimum proof is an official source (the company's own site, menu, or
+   booking page, or a government document) with the link, exact fee wording, amount, the date checked,
+   and a saved screenshot. News is a lead only.
+9. **"Harness":** the setup an agent runs inside (loop, tools, memory), from Mike's notes. On hold per D8.
+10. **Approvals:** only Mike, for now.
+
+**Why:** Mike's calls in the product-definition session.

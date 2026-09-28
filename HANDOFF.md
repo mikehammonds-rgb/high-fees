@@ -12,6 +12,8 @@ _Snapshot, not history. Rewrite it at the end of every session. History goes in 
   `project/sources/2026-09-28-chatgpt-planning-handoff.md` and summarized in `project/BRIEF.md`.
   The concept: a moderated, evidence-based registry of high or hidden consumer fees, starting in
   Florida. Most of that doc is **recommendations Mike hasn't approved yet**. Don't treat them as decisions.
+- **Mike's product answers are recorded as D9:** scope, anonymity, disputes, public proof, 7+1
+  categories, accounts required, research proof standard, sole approver.
 - That doc was written before this repo existed. Where it says "no GitHub repository", it is out of date.
 - **No paid, automated AI for now (D8).** No research agent, council, or AI receipt reading gets built.
   Research is done in Claude/Codex sessions and the council is a checklist.
@@ -24,10 +26,9 @@ _Snapshot, not history. Rewrite it at the end of every session. History goes in 
 
 ## Next steps (in order)
 
-1. **Product-definition session with Mike:** answer the open questions below and the founder
-   interview (section "Founder-story page" in the source doc). Record answers in `BRIEF.md` / `DECISIONS.md`.
+1. **Finish product definition:** settle the differences below and do the founder interview.
 2. **Architecture decision.** D3/D4 (static GitHub Pages, no build step) can't support the DGF,
-   evidence uploads, the private review center, accounts, or the newsletter. Those need a backend,
+   evidence uploads, the private review center, required accounts (D9), or the newsletter. Those need a backend,
    a database, private file storage, and login. Decide whether:
    - (a) the static site is only for the Phase 2 prototype (public pages with synthetic sample data),
      and the backend is chosen later, or
@@ -40,20 +41,10 @@ _Snapshot, not history. Rewrite it at the end of every session. History goes in 
 
 ## Questions for Mike
 
-From the ChatGPT planning (still unanswered):
+The 10 product questions are answered. See D9 in `project/DECISIONS.md`. Still open:
 
-1. Does the site cover fees disclosed too late, fees that are unreasonably high, or both?
-2. Should a properly disclosed but objectionably high fee be published?
-3. Are submitters always anonymous to the public?
-4. Do companies get to respond before publication, after, or only after a dispute?
-5. Does the public see redacted evidence, or only a "privately verified" statement?
-6. Are the six proposed business categories approved?
-7. Must someone create an account before submitting a DGF?
-8. What minimum evidence qualifies a research-agent discovery for human review?
-9. ~~What did "Harness" mean?~~ **Answered by Mike's notes:** "Harness" is the heading over
-   "loop to review and fix", "tools it can connect to", and "memory". So it means the setup the
-   research agent runs inside (its loop, tools, and memory), not a specific product. Mike to confirm.
-10. Who besides Mike may eventually approve publication?
+- The founder interview (section "Founder-story page" in the ChatGPT source doc).
+- The differences below.
 
 ## Where the ChatGPT plan differs from Mike's notes (Mike decides)
 
@@ -69,9 +60,6 @@ Claude's view is in brackets.
 - **Agent loop "fix anything itself".** ChatGPT: the agent can improve its own findings in the
   private queue, but changes to its own instructions or code need testing and your approval.
   [Agree. A self-changing agent making claims about real businesses is a legal risk.]
-- **Categories.** Notes name 4 (Hotels, Restaurants, Stores, Utilities) + "Other". ChatGPT added
-  Entertainment & Ticketing as the 5th. [Reasonable: the FTC fee rule covers tickets and lodging.
-  But it's your call.]
 - **Browser and mobile versions.** Notes: both. ChatGPT: one mobile-friendly website first, native
   app later. [Agree; one codebase until the reporting flow is proven.]
 - **Ads.** Notes: create ad/sponsor space. ChatGPT: design the space now, sell it later.
