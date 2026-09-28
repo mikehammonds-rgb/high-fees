@@ -51,6 +51,13 @@ until Mike approves it. Details: `project/BRIEF.md`.
   - Research needs an official source, date, and screenshot.
   - Only Mike approves publication.
 - D10 `AI_HANDOFF.md` is the one handoff doc; every AI reads it first and updates it last.
+- D11 How the 6 notes-vs-ChatGPT differences were settled:
+  - Receipt mismatches are flagged for Mike, not auto-rejected.
+  - One company page with each location's fee listed underneath.
+  - A mobile-friendly site first; an app-store app later.
+  - Ad spots are designed now but stay empty for now.
+  - An AI may fix only its own unpublished findings.
+  - Council checklist for content; Claude and Codex do the building; customer service is Mike's inbox.
 
 ## In progress
 
@@ -58,7 +65,8 @@ until Mike approves it. Details: `project/BRIEF.md`.
 
 ## Next steps (in order)
 
-1. **Finish product definition:** settle the differences below and do the founder interview.
+1. **Founder interview** with Mike; draft the About page text from it (Mike approves before it's committed,
+   since the repo is public).
 2. **Architecture decision.** D3/D4 (static GitHub Pages, no build step) can't support the DGF,
    evidence uploads, the private review center, required accounts (D9), or the newsletter. Those need a backend,
    a database, private file storage, and login. Decide whether:
@@ -73,34 +81,9 @@ until Mike approves it. Details: `project/BRIEF.md`.
 
 ## Questions for Mike
 
-The 10 product questions are answered. See D9 in `project/DECISIONS.md`. Still open:
+The 10 product questions (D9) and the 6 notes-vs-ChatGPT differences (D11) are answered. Still open:
 
 - The founder interview (section "Founder-story page" in the ChatGPT source doc).
-- The differences below.
-
-## Where the ChatGPT plan differs from Mike's notes (Mike decides)
-
-Mike's notes are in `project/sources/mike-original-idea-notes.md`. ChatGPT changed these items;
-Claude's view is in brackets.
-
-- **Receipt must match the description.** Notes: "must match". ChatGPT: flag mismatches for human
-  review instead of auto-rejecting, because some facts (e.g. when the fee was disclosed) aren't on a
-  receipt. [Agree with ChatGPT.]
-- **One instance per company.** Notes: one entry per company, "fees may vary". ChatGPT: one company
-  page with each location's fee listed underneath. [Agree; it keeps your idea and doesn't imply every
-  location charges the same.]
-- **Agent loop "fix anything itself".** ChatGPT: the agent can improve its own findings in the
-  private queue, but changes to its own instructions or code need testing and your approval.
-  [Agree. A self-changing agent making claims about real businesses is a legal risk.]
-- **Browser and mobile versions.** Notes: both. ChatGPT: one mobile-friendly website first, native
-  app later. [Agree; one codebase until the reporting flow is proven.]
-- **Ads.** Notes: create ad/sponsor space. ChatGPT: design the space now, sell it later.
-  [Agree; ads next to unproven claims about companies hurt credibility.]
-- **Agents list.** Notes list 8 roles. ChatGPT: the 5-member council reviews content; architect,
-  developer, tester, PM, and designer are building roles. [Agree. In practice, Claude and Codex fill
-  the building roles.]
-- **Research agent built "using Codex".** On hold per D8 (no paid, automated AI for now). Research
-  happens in Claude/Codex sessions instead.
 
 ## Other questions
 
@@ -111,7 +94,7 @@ Claude's view is in brackets.
 
 ## Known issues
 
-- **PR #1 must be merged before the next session.** Until it is, `main` still has the old
+- **PR #1 must be merged before the next session** (still open as of this update). Until it is, `main` still has the old
   `HANDOFF.md` and none of this, so an AI starting from `main` (e.g. Codex) would see stale state.
 - GitHub Pages must be enabled (Settings → Pages → Source: GitHub Actions) before the deploy
   workflow can succeed.

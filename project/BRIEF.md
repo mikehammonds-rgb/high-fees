@@ -54,13 +54,20 @@ including fees that are technically disclosed but buried and only show up on the
 
 - TBD — Mike to define (see founder-interview question 6 in the source doc).
 
+## How it works (D11)
+
+- A report's details are checked against its receipt; mismatches are flagged for Mike.
+- Each company has one page per fee, with location-by-location amounts and dates underneath.
+- One mobile-friendly website (receipt photos from the phone; installable to the home screen).
+- Ad spots are designed in but stay empty until there's content and traffic. Sponsors never touch listings.
+
 ## Out of scope (for now)
 
 - Paid, automated AI: research agent, 5-member council, AI receipt reading (D8). Research and
   review are done in Claude/Codex sessions for now.
-- Native mobile apps (responsive web / PWA first) **(proposed)**.
+- App-store mobile apps (mobile-friendly site first, D11).
 - States other than Florida.
-- Advertising and sponsorship until the site has content, traffic, and trust policies **(proposed)**.
+- Selling ads until the site has content and traffic (D11).
 
 ## Pages / site map (proposed)
 

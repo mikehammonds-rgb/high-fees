@@ -99,3 +99,25 @@ at the start of every session and rewrites it at the end. An AI without repo acc
 updated file for Mike to have committed.
 **Why:** Mike moves between AIs. One doc everyone reads and updates keeps them in sync; two doc
 copies would drift.
+
+### D11 — 2026-09-28 — Mike's notes vs. the ChatGPT plan: the 6 differences settled
+
+1. **Receipt vs. description:** the business, date, fee name, and amount are checked against the
+   receipt. Mismatches are **flagged for Mike**, not auto-rejected.
+2. **One entry per company:** one company page per fee (e.g. Marriott, resort fee), with each
+   location's amount and date listed underneath.
+3. **Browser and mobile:** one mobile-friendly website first. Receipt photos are taken from the
+   phone browser, and the site can be installed to the home screen. An app-store app only later,
+   if usage justifies it.
+4. **Ads and sponsors:** clearly labeled ad spots are designed into the layout but stay empty until
+   the site has content and traffic. A company can never sponsor its own page or category, and
+   sponsors never affect listings.
+5. **AI self-fixing:** an AI may re-check, correct, or mark stale **its own unpublished findings**
+   in the review folder. Changes to published entries, rules, or its own instructions or code go to
+   Mike as a PR.
+6. **Roles:** content review uses the 5-part council checklist (researcher, evidence critic, legal
+   monitor, editor/taxonomist, quality/privacy). Building roles (architect, developer, tester,
+   designer, PM) are Claude and Codex in each session. Customer service is Mike's dispute and support
+   inbox once the site is live.
+
+**Why:** Mike's calls. These supersede the matching lines in Mike's original notes.
