@@ -12,7 +12,7 @@ It is the one shared handoff doc. It's a snapshot of *now*, not a history (histo
 - **AI that can't edit the repo** (e.g. ChatGPT chat): at the end, output the full updated
   `AI_HANDOFF.md` (and a LOG entry) for Mike to hand to Claude or Codex to commit.
 
-**Last updated:** 2026-09-28 · **By:** Claude (Code) · **Branch:** claude/epic-gates-w8c84y ([PR #1](https://github.com/mikehammonds-rgb/high-fees/pull/1), not yet merged)
+**Last updated:** 2026-09-28 · **By:** Claude (Code) · **Branch:** claude/epic-gates-w8c84y (PR #1 merged; this end-of-day update is PR #2)
 
 ## What this is (one paragraph)
 
@@ -62,11 +62,13 @@ until Mike approves it. Details: `project/BRIEF.md`.
 
 ## In progress
 
-- Nothing.
+- Nothing. Session ended 2026-09-28 at Mike's request. **Start next session with next step 1.**
 
 ## Next steps (in order)
 
-1. **Architecture decision.** D3/D4 (static GitHub Pages, no build step) can't support the DGF,
+1. **Architecture decision** (Claude's recommendation for Mike to confirm: prototype the public
+   pages as a free static site with synthetic data first, then pick a free-tier service for
+   accounts, the database, and uploads before building the DGF). D3/D4 (static GitHub Pages, no build step) can't support the DGF,
    evidence uploads, the private review center, required accounts (D9), or the newsletter. Those need a backend,
    a database, private file storage, and login. Decide whether:
    - (a) the static site is only for the Phase 2 prototype (public pages with synthetic sample data),
@@ -94,8 +96,6 @@ The 10 product questions (D9), the 6 notes-vs-ChatGPT differences (D11), and the
 
 ## Known issues
 
-- **PR #1 must be merged before the next session** (still open as of this update). Until it is, `main` still has the old
-  `HANDOFF.md` and none of this, so an AI starting from `main` (e.g. Codex) would see stale state.
 - GitHub Pages must be enabled (Settings → Pages → Source: GitHub Actions) before the deploy
   workflow can succeed.
 - Domain renewal: both domains were bought 2026-06-10. Check the renewal date and auto-renew in
