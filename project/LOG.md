@@ -23,7 +23,7 @@ D11 — the 6 notes-vs-ChatGPT differences settled. D12 — founder interview do
 (first name + Tampa only).
 **Left open:** cold start (where launch content comes from without the agent); static-vs-backend architecture (D3/D4
 don't fit the DGF/review center); repo is public; hosting plan; domain renewal; legal facts unverified.
-**PR:** see branch
+**PR:** [#1](https://github.com/mikehammonds-rgb/high-fees/pull/1) (merged); end-of-day handoff update in #2
 
 ## 2026-09-28 — Claude (Cowork) — main
 

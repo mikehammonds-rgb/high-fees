@@ -12,7 +12,15 @@ It is the one shared handoff doc. It's a snapshot of *now*, not a history (histo
 - **AI that can't edit the repo** (e.g. ChatGPT chat): at the end, output the full updated
   `AI_HANDOFF.md` (and a LOG entry) for Mike to hand to Claude or Codex to commit.
 
-**Last updated:** 2026-09-28 · **By:** Claude (Code) · **Branch:** claude/epic-gates-w8c84y ([PR #1](https://github.com/mikehammonds-rgb/high-fees/pull/1), not yet merged)
+**Last updated:** 2026-09-28 · **By:** Claude (Code) · **Branch:** claude/epic-gates-w8c84y (PR #1 merged; this end-of-day update is PR #2)
+
+## Reminders for Mike (AIs: mention any open ones at the start of each session)
+
+- [ ] **Privacy Protection** on both domains in the Whois.com Control Panel (manage.whois.com, then the
+      domain, then Privacy Protection). It's about $2 pro-rata to 2027-06-10. At checkout, make sure it's
+      privacy protection and not a pricier "Domain Protect+" bundle.
+- [ ] **Merge the open PR** from the last session before starting with another AI.
+- [x] Domain renewal reminder: yearly Google Calendar reminder on June 1 (domains expire June 10).
 
 ## What this is (one paragraph)
 
@@ -28,7 +36,8 @@ until Mike approves it. Details: `project/BRIEF.md`.
 - Background material, read-only: Mike's original notes (`project/sources/mike-original-idea-notes.md`)
   and the earlier ChatGPT planning doc (`project/sources/2026-09-28-chatgpt-planning-handoff.md`).
   That ChatGPT doc was the first handoff. **This file replaces it**; don't update the old one.
-- Mike owns `highfeesnotforme.com` and `highfeesnotforme.info` (Whois.com, bought 2026-06-10).
+- Mike owns `highfeesnotforme.com` and `highfeesnotforme.info` (Whois.com, bought 2026-06-10, renew 2027-06-10).
+  Domain only, with no hosting plan, which is what D6 needs (GitHub Pages hosts for free).
   Not connected yet.
 
 ## Decisions so far (full text in `project/DECISIONS.md`)
@@ -62,11 +71,13 @@ until Mike approves it. Details: `project/BRIEF.md`.
 
 ## In progress
 
-- Nothing.
+- Nothing. Session ended 2026-09-28 at Mike's request. **Start next session with next step 1.**
 
 ## Next steps (in order)
 
-1. **Architecture decision.** D3/D4 (static GitHub Pages, no build step) can't support the DGF,
+1. **Architecture decision** (Claude's recommendation for Mike to confirm: prototype the public
+   pages as a free static site with synthetic data first, then pick a free-tier service for
+   accounts, the database, and uploads before building the DGF). D3/D4 (static GitHub Pages, no build step) can't support the DGF,
    evidence uploads, the private review center, required accounts (D9), or the newsletter. Those need a backend,
    a database, private file storage, and login. Decide whether:
    - (a) the static site is only for the Phase 2 prototype (public pages with synthetic sample data),
@@ -90,16 +101,14 @@ The 10 product questions (D9), the 6 notes-vs-ChatGPT differences (D11), and the
 - **This repo is public.** Anything committed, including the founder story, plans, and notes, is
   visible to anyone and stays in git history. OK to keep it public? (Free GitHub Pages needs a public
   repo. Keeping the repo private needs a paid GitHub plan or a different host.)
-- Did the Whois.com purchase include a hosting plan? If so, it may not be needed (see D6).
 
 ## Known issues
 
-- **PR #1 must be merged before the next session** (still open as of this update). Until it is, `main` still has the old
-  `HANDOFF.md` and none of this, so an AI starting from `main` (e.g. Codex) would see stale state.
 - GitHub Pages must be enabled (Settings → Pages → Source: GitHub Actions) before the deploy
   workflow can succeed.
-- Domain renewal: both domains were bought 2026-06-10. Check the renewal date and auto-renew in
-  Whois.com so they don't lapse.
+- **Domain renewal: both domains renew 2027-06-10** (confirmed by Mike). Auto-renew isn't in the obvious places in
+  the Whois.com panel. Mike has a yearly calendar reminder to renew on June 1. Privacy Protection was off on the .com. Mike is reviewing the ~$2 pro-rata option; check
+  it's on for both domains.
 - `project/content/about.md` has one `[VERIFY]` sentence (FTC fee rule). Check it before the page goes live.
 - The legal facts in the source doc (FTC fee rule, Florida restaurant operations-charge law, Florida
   card-surcharge statute) have **not been re-verified** in this repo. Don't publish them until they're
