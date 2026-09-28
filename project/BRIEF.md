@@ -7,7 +7,7 @@ they win any conflict) and the ChatGPT planning sessions
 ([`sources/2026-09-28-chatgpt-planning-handoff.md`](sources/2026-09-28-chatgpt-planning-handoff.md),
 the detailed reference). This brief is the summary. Items marked **(proposed)** are recommendations
 Mike has not yet approved. Where the two sources differ, see "Where the ChatGPT plan differs from
-Mike's notes" in `HANDOFF.md`._
+Mike's notes" in `AI_HANDOFF.md`._
 
 ## One-line pitch
 

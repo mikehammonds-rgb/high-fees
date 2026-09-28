@@ -1,24 +1,56 @@
-# HANDOFF — current state
+# AI HANDOFF — High Fees Not For Me
 
-_Snapshot, not history. Rewrite it at the end of every session. History goes in `project/LOG.md`._
+**Every AI (Claude, Codex, ChatGPT, any other) reads this file first and updates it last.**
+It is the one shared handoff doc. It's a snapshot of *now*, not a history (history goes in
+`project/LOG.md`). Full rules are in `AGENTS.md`.
 
-**Last updated:** 2026-09-28 · **By:** Claude (Code) · **Branch:** claude/epic-gates-w8c84y
+- **Start of a session:** read this whole file before doing anything. Then tell Mike in 2–3 lines
+  what you understand the state to be and what you plan to do.
+- **End of a session:** rewrite this file so it's true right now: update the date/agent line,
+  "Where things stand", "Decisions so far", next steps, and questions. Then add a
+  `project/LOG.md` entry. **A session that doesn't update this file isn't finished.**
+- **AI that can't edit the repo** (e.g. ChatGPT chat): at the end, output the full updated
+  `AI_HANDOFF.md` (and a LOG entry) for Mike to hand to Claude or Codex to commit.
+
+**Last updated:** 2026-09-28 · **By:** Claude (Code) · **Branch:** claude/epic-gates-w8c84y ([PR #1](https://github.com/mikehammonds-rgb/high-fees/pull/1), not yet merged)
+
+## What this is (one paragraph)
+
+A moderated, evidence-based registry of add-on fees consumers run into (resort fees, forced
+gratuities, service/operations charges, card surcharges, and the like), starting in Florida.
+Fees come from research (official sources) and from user reports with a receipt. Nothing goes public
+until Mike approves it. Details: `project/BRIEF.md`.
 
 ## Where things stand
 
 - **Phase 0: planning only.** Nothing has been designed or built. The only published content is a
   "Coming soon" placeholder page.
-- Mike's earlier ChatGPT planning is in the repo at
-  `project/sources/2026-09-28-chatgpt-planning-handoff.md` and summarized in `project/BRIEF.md`.
-  The concept: a moderated, evidence-based registry of high or hidden consumer fees, starting in
-  Florida. Most of that doc is **recommendations Mike hasn't approved yet**. Don't treat them as decisions.
-- **Mike's product answers are recorded as D9:** scope, anonymity, disputes, public proof, 7+1
-  categories, accounts required, research proof standard, sole approver.
-- That doc was written before this repo existed. Where it says "no GitHub repository", it is out of date.
-- **No paid, automated AI for now (D8).** No research agent, council, or AI receipt reading gets built.
-  Research is done in Claude/Codex sessions and the council is a checklist.
+- Background material, read-only: Mike's original notes (`project/sources/mike-original-idea-notes.md`)
+  and the earlier ChatGPT planning doc (`project/sources/2026-09-28-chatgpt-planning-handoff.md`).
+  That ChatGPT doc was the first handoff. **This file replaces it**; don't update the old one.
 - Mike owns `highfeesnotforme.com` and `highfeesnotforme.info` (Whois.com, bought 2026-06-10).
-  Not connected yet; the plan is in D6.
+  Not connected yet.
+
+## Decisions so far (full text in `project/DECISIONS.md`)
+
+- D1 The repo is the single source of truth. D2 Branch + PR per session; Mike merges.
+- D3/D4 Static site on GitHub Pages, plain HTML/CSS/JS, no build step (being revisited, see next steps).
+- D5 Google Drive only for large files and raw material.
+- D6 After the prototype, `www.highfeesnotforme.com` is the main address; `.info` forwards to it.
+- D7 The ChatGPT planning doc is reference material; Mike's notes win any conflict.
+- D8 No paid, automated AI for now: no research agent, council, or AI receipt reading. Research
+  happens in Claude/Codex sessions, and the council is a checklist.
+- D9 Product answers:
+  - Scope: add-on fees beyond the listed price, including buried "disclosed" ones.
+  - Submitters choose anonymous (default) or shown.
+  - Companies respond only by dispute; every entry has a dispute link.
+  - Public proof is a cropped fee line plus the review date.
+  - Categories: Hotels · Restaurants · Food Delivery & Apps · Stores · Utilities ·
+    Travel & Transportation · Home & Personal Services · Other.
+  - An account is required to submit.
+  - Research needs an official source, date, and screenshot.
+  - Only Mike approves publication.
+- D10 `AI_HANDOFF.md` is the one handoff doc; every AI reads it first and updates it last.
 
 ## In progress
 
@@ -79,6 +111,8 @@ Claude's view is in brackets.
 
 ## Known issues
 
+- **PR #1 must be merged before the next session.** Until it is, `main` still has the old
+  `HANDOFF.md` and none of this, so an AI starting from `main` (e.g. Codex) would see stale state.
 - GitHub Pages must be enabled (Settings → Pages → Source: GitHub Actions) before the deploy
   workflow can succeed.
 - Domain renewal: both domains were bought 2026-06-10. Check the renewal date and auto-renew in

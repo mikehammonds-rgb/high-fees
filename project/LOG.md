@@ -18,6 +18,7 @@ to `AGENTS.md` §2a, rewrote `HANDOFF.md`. Added Mike's original idea notes to `
 ChatGPT plan differs from them.
 **Decided:** D6 — `www.highfeesnotforme.com` primary via Pages custom domain; `.info` forwards to it.
 D7 — ChatGPT planning is reference, not decisions. D8 — no paid, automated AI for now. D9 — Mike's answers to the 10 product questions.
+D10 — `HANDOFF.md` renamed `AI_HANDOFF.md`; every AI reads it first and updates it last.
 **Left open:** Founder interview; the ChatGPT-vs-notes differences; cold start (where launch content comes from without the agent); static-vs-backend architecture (D3/D4
 don't fit the DGF/review center); repo is public; hosting plan; domain renewal; legal facts unverified.
 **PR:** see branch

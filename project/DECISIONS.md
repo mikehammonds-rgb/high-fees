@@ -90,3 +90,12 @@ or submission volume grows. Any paid service needs Mike's OK and a budget first.
 10. **Approvals:** only Mike, for now.
 
 **Why:** Mike's calls in the product-definition session.
+
+### D10 — 2026-09-28 — `AI_HANDOFF.md` is the one handoff doc; read first, update last
+
+`HANDOFF.md` is renamed `AI_HANDOFF.md` (the name Mike uses) and replaces the earlier ChatGPT
+handoff, which stays frozen in `project/sources/`. Every AI (Claude, Codex, ChatGPT) reads it first
+at the start of every session and rewrites it at the end. An AI without repo access outputs the
+updated file for Mike to have committed.
+**Why:** Mike moves between AIs. One doc everyone reads and updates keeps them in sync; two doc
+copies would drift.
