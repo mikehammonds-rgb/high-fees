@@ -28,7 +28,7 @@ until Mike approves it. Details: `project/BRIEF.md`.
 - Background material, read-only: Mike's original notes (`project/sources/mike-original-idea-notes.md`)
   and the earlier ChatGPT planning doc (`project/sources/2026-09-28-chatgpt-planning-handoff.md`).
   That ChatGPT doc was the first handoff. **This file replaces it**; don't update the old one.
-- Mike owns `highfeesnotforme.com` and `highfeesnotforme.info` (Whois.com, bought 2026-06-10).
+- Mike owns `highfeesnotforme.com` and `highfeesnotforme.info` (Whois.com, bought 2026-06-10, renew 2027-06-10).
   Not connected yet.
 
 ## Decisions so far (full text in `project/DECISIONS.md`)
@@ -98,8 +98,8 @@ The 10 product questions (D9), the 6 notes-vs-ChatGPT differences (D11), and the
 
 - GitHub Pages must be enabled (Settings → Pages → Source: GitHub Actions) before the deploy
   workflow can succeed.
-- Domain renewal: both domains were bought 2026-06-10. Check the renewal date and auto-renew in
-  Whois.com so they don't lapse.
+- **Domain renewal: both domains renew 2027-06-10** (confirmed by Mike). Auto-renew status is unknown;
+  Mike to check it in Whois.com. If it's off, set a reminder for May 2027 so they don't lapse.
 - `project/content/about.md` has one `[VERIFY]` sentence (FTC fee rule). Check it before the page goes live.
 - The legal facts in the source doc (FTC fee rule, Florida restaurant operations-charge law, Florida
   card-surcharge statute) have **not been re-verified** in this repo. Don't publish them until they're
